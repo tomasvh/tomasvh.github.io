@@ -30,7 +30,7 @@ url: "https://tomasvh.github.io/" # the base hostname & protocol for your site, 
 facebook_username: Azmodaii
 github_username:  tomasvh
 disqus:
-    shortname: my_disqus_cryptoftomas
+    shortname: tomasvh
 
 # Build settings
 theme: minima
