@@ -18,6 +18,9 @@
             {%- if site.email -%}
             <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
             {%- endif -%}
+            {%- if site.humans -%}
+            <li><a href="humans.txt"><img border="0" alt = "humans.txt file" src="humans-isolated-blank.gif"></a></li>
+            {%- endif -%}
         </ul>
       </div>
 

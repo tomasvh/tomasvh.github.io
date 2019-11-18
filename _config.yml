@@ -18,12 +18,13 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Crypt of Tomas Marx-Raacz von Hidvég
+title: Tomas Marx-Raacz von Hidvég
 email: tomas.v.hidveg@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   This is the home of Tomas Marx-Raacz von Hidvég, a DevOps developer in training.
   Currently working on learning Javascript, Java, HTML and CSS among other very
   useful tools for development.  
+humans: humans.txt
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 facebook_username: Azmodaii
