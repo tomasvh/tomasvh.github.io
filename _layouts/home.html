@@ -29,6 +29,13 @@ layout: default
     </ul>
 
     <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-  {%- endif -%}
+   
+      
 
+  {%- endif -%}
+    {%- if site.humans -%}
+      <p>
+        <a href="{{ "/humans.txt" | relative_url }}"><img src="/assets/images/humanstxt-isolated-blank.gif" alt=""></a>
+      </p>
+    {%- endif -%}
 </div>

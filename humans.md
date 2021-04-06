@@ -1,5 +1,8 @@
+---
+layout: humans
+permalink: '/humans.txt'
+---
 
-                            
 /* TEAM */
 
                             
@@ -34,7 +37,7 @@ Name: name or url
 /* SITE */
 
                             
-Last update: 2019/11/18 
+Last update: {{ site.time }} 
 
                             
 Standards: HTML5, CSS3, SASSC
