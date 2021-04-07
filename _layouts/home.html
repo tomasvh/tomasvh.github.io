@@ -2,40 +2,44 @@
 layout: default
 ---
 
-<div class="home">
-  {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}
+<div class="row">
+  
 
-  {{ content }}
-
-  {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
-    <ul class="post-list">
-      {%- for post in site.posts -%}
-      <li>
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h3>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
-      </li>
-      {%- endfor -%}
-    </ul>
-
-    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-   
-      
-
-  {%- endif -%}
-    {%- if site.humans -%}
-      <p>
-        <a href="{{ "/humans.txt" | relative_url }}"><img src="/assets/images/humanstxt-isolated-blank.gif" alt=""></a>
-      </p>
+  <div class="column home">
+    {%- if page.title -%}
+      <h1 class="page-heading">{{ page.title }}</h1>
     {%- endif -%}
+
+   {{ content }}
+
+    {%- if site.posts.size > 0 -%}
+      <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
+      <ul class="post-list">
+        {%- for post in site.posts -%}
+       <li>
+          {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+           <span class="post-meta">{{ post.date | date: date_format }}</span>
+         <h3>
+           <a class="post-link" href="{{ post.url | relative_url }}">
+             {{ post.title | escape }}
+            </a>
+          </h3>
+         {%- if site.show_excerpts -%}
+           {{ post.excerpt }}
+         {%- endif -%}
+        </li>
+       {%- endfor -%}
+      </ul>
+      <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+     {%- endif -%}
+    
+  </div>
+  <div class="column post-links">
+    <h4>Other posts</h4>
+    <ul>
+    {% for post in site.related_posts limit: 10 %}        
+     <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+   </ul>
+  </div>
 </div>

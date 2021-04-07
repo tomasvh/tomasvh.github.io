@@ -176,17 +176,35 @@
 /**
  * Page content
  */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: right;
+}
+
+.post-links {
+  width: 25%;
+}
+
+.home {
+  width: 75%;
+}
+
 .page-content {
   padding: $spacing-unit 0;
   flex: 1;
 }
 
 .page-heading {
-  @include relative-font-size(2);
+  @include relative-font-size(2.5);
 }
 
 .post-list-heading {
-  @include relative-font-size(1.75);
+  @include relative-font-size(2);
 }
 
 .post-list {
