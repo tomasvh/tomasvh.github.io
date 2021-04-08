@@ -4,4 +4,11 @@ title: Interests
 permalink: /interests/
 ---
 
-Jag gillar att dyka
+Interests:
+
+* Diving
+* Building and configuring computers
+* Computer gaming
+* Tabletop figure gaming
+* Camping
+* History in all forms and shapes

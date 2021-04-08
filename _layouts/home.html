@@ -34,12 +34,4 @@ layout: default
      {%- endif -%}
     
   </div>
-  <div class="column post-links">
-    <h4>Other posts</h4>
-    <ul>
-    {% for post in site.related_posts limit: 10 %}        
-     <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-   </ul>
-  </div>
 </div>

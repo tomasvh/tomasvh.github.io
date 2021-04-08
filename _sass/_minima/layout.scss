@@ -176,23 +176,6 @@
 /**
  * Page content
  */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.column {
-  float: right;
-}
-
-.post-links {
-  width: 25%;
-}
-
-.home {
-  width: 75%;
-}
 
 .page-content {
   padding: $spacing-unit 0;

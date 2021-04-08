@@ -4,15 +4,13 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+So who am i you might wonder?
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+My name is Tomas Marx-Raacz von Hidvég, I am 38 years old father of one very energetic three year old.
+I am half swedish and half hungarian, and the latter is the reason for the long and complicated surname.
+As a current occupation i serve as a night time correctional officer and emergancy chief at a jail in Stockholm.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+This education is my way out of that occupation which in more ways than one is slowly killing the soul.
+This is not my first time around the school bench however as i have a Masters degree in Archaeological science.
 
 
-[jekyll-organization]: https://github.com/jekyll
