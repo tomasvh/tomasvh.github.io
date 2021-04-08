@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "A long awaited return"
+type: Blog-post
 date:   2021-04-07 11:17:33 -0600
 ---
 

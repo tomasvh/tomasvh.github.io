@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Answering the questions"
+type: Blog-post
 date:   2019-11-17 10:49:33 -0600
 
 ---
